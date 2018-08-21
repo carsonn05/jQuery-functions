@@ -63,7 +63,9 @@
                 $("#attrimg").attr("src","https://static.postize.com/images/KnVgbPkDFdyS_762.jpg");
                 console.log("how many times can I push this button?")
             })
-            
+            $("#textbutton").click(function(){
+                $("#texttext").text("I'm finished!")
+            })
 
 
         })
@@ -141,6 +143,12 @@
     <button id="attr">.attr</button>
     <p>Click the button to see what happens!</p>
     <img src="https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?cs=srgb&dl=animal-animal-photography-cat-104827.jpg&fm=jpg" id="attrimg">
+</div>
+
+<div>
+    <h1>.text</h1>
+    <button id="textbutton">.text</button>
+    <p id="texttext">.text works very similarly to .html. Click the button.</p>
 </div>
 
     
