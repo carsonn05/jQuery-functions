@@ -24,3 +24,8 @@ button {
 .addred {
    color:red; 
 }
+
+img {
+    height: auto;
+    width: 200px;
+}
