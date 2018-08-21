@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+div {
+    background-color: silver;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    background-color: darkgray;
+}
+
+button {
+    height: auto;
+    width: auto;
+    padding: 5px;
+    background-color: teal;
+}
+
+.addred {
+   color:red; 
+}
